@@ -1,0 +1,29 @@
+body {
+  background-color: white;
+  color:white;
+  font-family: "Sofia";
+}
+h1{
+  color: red;
+  letter-spacing: 7px;
+}
+h2{
+  color: red;
+  letter-spacing: 3px;
+}
+.playAgain{
+  font-family: "Sofia";
+  color: red;
+}
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */

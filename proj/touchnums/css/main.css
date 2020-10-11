@@ -1,0 +1,99 @@
+h1{
+    font-family: "Sofia";
+    color: wheat;
+    letter-spacing: 3px;
+}
+
+h2{
+    font-family: "Sofia";
+    color: wheat;
+    letter-spacing: 3px;
+}
+
+h4{
+    font-family: "Sofia";
+    color: wheat;
+    letter-spacing: 3px;
+
+
+}
+h5{
+    font-family: "Sofia";
+    color: wheat;
+    letter-spacing: 3px;
+}
+/* .gCurrNumber{
+    background-color: white;
+} */
+
+.easy-btn{
+    font-family: "Sofia";
+    }
+
+.hard-btn{
+    font-family: "Sofia";
+        }
+
+.extreme-btn{
+     font-family: "Sofia";
+         }
+
+.play-btn{
+   
+font-family: "Sofia";
+}
+
+body{
+    background-color: rgb(224, 131, 146);
+}
+table{
+    margin-left: 570px;
+    width: 300px;
+    height: 50px;
+}
+
+table, th, td {
+    font-family: "Sofia";
+    /* border: 5px solid; */
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    
+   
+  }
+ th, td{
+    font-family: "Sofia";
+    background-color:wheat;
+    font-weight: bold;
+    font-style: oblique;
+    width: 300px;
+    height: 50px;
+} 
+
+#minutes{
+    font-family: "Sofia";
+    border: 3px solid wheat;
+    background-color:white;
+    width: 100px;
+   
+  
+}
+
+#seconds{
+    font-family: "Sofia";
+    border: 3px solid wheat;
+    background-color:white;
+    width:100px;
+    margin-left: 2px;
+   
+}
+
+#dot{
+    font-family: "Sofia";
+    border: 3px solid wheat;
+    background-color:white;
+    width:100px;
+    margin-left: 2px;
+   
+}

@@ -1,0 +1,97 @@
+*{box-sizing: border-box;}
+
+body {
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header {
+  background-color: #73aedb;
+  text-align: center;
+  color: #ffa2d8;
+  font-size: 3em;
+  height: 400px;
+}
+
+footer {
+  background-color: rgb(172, 172, 172);
+  text-align: center;
+  color: lightblue;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.ending-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ending-form input {
+  margin: 10px;
+  font-size: 1em;
+}
+.ending-form label{
+  font-weight: bold;
+}
+.ending-form input,label {
+  height: 40px;
+  width: 300px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+.btn-start {
+  background-color: #ffe9a8;
+}
+.btn-yes {
+  background-color: #b3ffc4;
+}
+
+.btn-no {
+  background-color: #ff8b97;
+}
+
+.btn-add-guess {
+  background-color: #ffc494;
+  width: 250px;
+  color: white;
+}
+
+.answ-popup {
+  display: none;
+  position: center;
+  top: 400px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.btn-answ {
+  background-color: #c7ebff;
+  color: #ffa2d8;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+}
